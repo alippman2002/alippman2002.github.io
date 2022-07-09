@@ -10,8 +10,8 @@
     content: "";
     clear: both;
     display: table; 
-    padding: 50px;
 }
+
 @media screen and (max-width: 768px) {
     .all-columns {
         width: 100%;
@@ -28,5 +28,4 @@ top-buttons.a {
   img {
     width: 400px;
     height:400px;
-    padding: 30px;
   }
