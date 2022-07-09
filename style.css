@@ -10,6 +10,7 @@
     content: "";
     clear: both;
     display: table; 
+    align-items: start;
 }
 
 @media screen and (max-width: 768px) {
