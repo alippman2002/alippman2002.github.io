@@ -11,8 +11,6 @@
     clear: both;
     display: table; 
     align-items: start;
-    padding:50px;
-    text-align: center;
 }
 
 @media screen and (max-width: 768px) {
