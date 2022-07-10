@@ -60,4 +60,5 @@ top-buttons.a {
   section ul li {
     list-style-type: none;
     display: inline-block;
+    margin: 1.6rem 0;
   }
