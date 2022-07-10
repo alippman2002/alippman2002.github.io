@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
 }
+
+/*
 .all-columns {
     float: left;
     width: 33.33%;
@@ -19,6 +21,7 @@
         padding: 50px;
     }
 }
+*/
 top-buttons.a {
     background-color: white;
     color: black;
@@ -35,3 +38,26 @@ top-buttons.a {
   /*Things to add
   FINISH STYLING EVERYTHING
   */
+
+  ul,li, img {
+    margin: 0;
+    padding: 0;
+  }
+
+  section ul {
+    width: 60%;
+    margin: 0 auto;
+    outline: 1px solid red;
+    text-align: justify;
+  }
+
+  section ul::after {
+    content: "";
+    width: 100%;
+    display: inline-block;
+  }
+
+  section ul li {
+    list-style-type: none;
+    display: inline-block;
+  }
