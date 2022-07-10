@@ -15,7 +15,10 @@ html{
 body{ 
     position: relative; font-size: inherit;
 }
-
+img {
+    width: 400px;
+    height: 400px;
+}
 /* Styling for the image distribution part */
 ul, li, img{
     margin: 0;
